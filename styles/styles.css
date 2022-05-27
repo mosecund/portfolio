@@ -132,6 +132,29 @@ section {
   color: var(--color-white);
 }
 
+.langage-btn {
+  top: 15%;
+  right: 13%;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: var(--color-grey-4);
+  cursor: pointer;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.3);
+  transition: all 0.1s ease-in-out;
+}
+.langage-btn:active {
+  transform: translateY(-5px);
+}
+.langage-btn i {
+  font-size: 1.4rem;
+  color: var(--color-grey-2);
+  pointer-events: none;
+}
 .theme-btn {
   top: 5%;
   right: 3%;
